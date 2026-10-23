@@ -31,5 +31,5 @@ const posterImages = [
 export const posters: Poster[] = posterImages.map((filename, i) => ({
   title: `Poster ${String(i + 1).padStart(2, "0")}`,
   tag: ["Branding", "Ad Creative", "Social Post", "Campaign"][i % 4],
-  src: `/assets/${filename}`,
+  src: `/assests/${filename}`,
 }));
